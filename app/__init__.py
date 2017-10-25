@@ -5,7 +5,7 @@
 # Email:     457880341@qq.com
 # Time:      2017-10-22 20:57
 # Software:  PyCharm Pro Edition 4.5
-# Description:   
+# Description:   初始化app及 数据库实例
 # ----------------------------------------------
 
 
@@ -18,7 +18,6 @@ app.config.from_object('config')
 db = MongoEngine(app)
 
 from app import views, models
-
 
 
 if __name__ == '__main__':

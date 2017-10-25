@@ -5,7 +5,7 @@
 # Email:     457880341@qq.com
 # Time:      2017-10-22 20:58
 # Software:  PyCharm Pro Edition 4.5
-# Description:   
+# Description:    视图函数
 # ----------------------------------------------
 
 from app import app

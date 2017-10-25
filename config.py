@@ -13,7 +13,5 @@ WTF_CSRF_ENABLED = False
 SECRET_KEY = 'SSS key'
 
 
-
-
 if __name__ == '__main__':
     pass

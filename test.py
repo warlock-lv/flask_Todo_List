@@ -8,8 +8,6 @@
 # Description:   
 # ----------------------------------------------
 
-from flask_mongoengine import MongoEngine
-
 import datetime
 
 aa = datetime.datetime.now()
@@ -17,12 +15,6 @@ aa = aa.strftime('%Y-%m-%d %H:%M:%S.%f')
 
 print(aa)
 print(type(aa))
-
-
-
-#'%Y-%m-%d %H:%M:%S %f'
-
-#print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3])
 
 
 if __name__ == '__main__':
